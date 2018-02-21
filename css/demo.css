@@ -113,6 +113,9 @@ a {
     margin-top: -18.75px;
 }
 
+.wrap {
+    padding: 20px;
+}
 
 .choose_example {
     width: 35%;
@@ -129,6 +132,9 @@ a {
     display: none;
 }
 
+#country{
+    display: none;
+}
 .code {
     margin-top: 10px;
 }

@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title><?php pageTitle(); ?> | <?php siteName(); ?></title>
     <style type="text/css">
-        .wrap { max-width: 1260px; margin: 50px auto; padding: 30px 40px; text-align: center; box-shadow: 0 4px 25px -4px #9da5ab; }
+        .wrap {}
         article { text-align: center; line-height: 150%; }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,8 +25,8 @@
 </script>
 </head>
 <body>
-       <div style= "height:300px; width:100%">
-      <img src = '../content/images/Logo.png' style="height:200px;width:85%">
+       <div id="title" style= "height:300px; width:100%">
+      <img src = '../content/images/WebsiteTitle.png' style="height:300px;width:60%">
     </div>
 <div class="wrap">
 
