@@ -113,8 +113,8 @@
       'initialMapX': 0,
       'initialMapY': 0,
       'retainPanZoomOnRedraw': false,
-      'displayPreloader': true,
-      'preloaderText': 'Loading map...',
+      'displayPreloader': false,
+      'preloaderText': '',
       'disableTooltip': false,
       'selectElement': true,
       'selectElementDevices': ['mobile'],
@@ -137,9 +137,7 @@
     var mapWrapper = $(this);
 
     // Preloader
-    if (settings.displayPreloader) {
-      var preloader = $('<div class="jsmaps-preloader">' + settings.preloaderText + '</div>').appendTo(mapWrapper);
-    }
+
 
     var r;
     var mouseX = 0;
