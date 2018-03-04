@@ -174,22 +174,20 @@ var earth3d;
         $elem.appendTo(widget.options.locationsElement);
         $elem.click(function() {
             alert('Clicked on ' + location.name);
-            alert('--gary--');
-
             if(location.name === 'SouthAmerica'){
-               window.location.href = "?SouthAmerica";
+               window.location.href = "?page=SouthAmerica";
             } else if (location.name === 'NorthAmerica'){
-              window.location.href = "?NorthAmerica";
+              window.location.href = "?page=NorthAmerica";
             } else if (location.name === 'Europe'){
-              window.location.href = "?Europe";
+              window.location.href = "?page=Europe";
             } else if (location.name === 'Asia'){
-              window.location.href = "?Asia";
+              window.location.href = "?page=Asia";
             } else if (location.name === 'Antartica'){
-              window.location.href = "?Antartica";
+              window.location.href = "?page=Antartica";
             } else if (location.name === 'AustraliaNewZealand'){
-              window.location.href = "?AustraliaNewZealand";
+              window.location.href = "?page=AustraliaNewZealand";
             } else if (location.name === 'Africa'){
-              window.location.href = "?Africa";
+              window.location.href = "?page=Africa";
             }
         
         });

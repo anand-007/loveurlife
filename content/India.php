@@ -119,43 +119,12 @@
 </head>
 
 <script type="text/javascript">
-  function gar1y(){
+  function gary(){
     document.getElementById("title").style.display = "none";
   }
 </script>
 
-<script>
-    $(function() {
-        $('.material-card > .mc-btn-action').click(function () {
-            var card = $(this).parent('.material-card');
-            var icon = $(this).children('i');
-            icon.addClass('fa-spin-fast');
-
-            if (card.hasClass('mc-active')) {
-                card.removeClass('mc-active');
-
-                window.setTimeout(function() {
-                    icon
-                        .removeClass('fa-arrow-left')
-                        .removeClass('fa-spin-fast')
-                        .addClass('fa-bars');
-
-                }, 800);
-            } else {
-                card.addClass('mc-active');
-
-                window.setTimeout(function() {
-                    icon
-                        .removeClass('fa-bars')
-                        .removeClass('fa-spin-fast')
-                        .addClass('fa-arrow-left');
-
-                }, 800);
-            }
-        });
-    });
-</script>
-<body onload="gar1y()">
+<body onload="gary()">
   <!-- Page Content
     ================================================== -->
   <!-- Hero -->
@@ -170,7 +139,7 @@
 
       <div class="col-md-12">
         <h1>
-            Asia Content to be uploaded
+            India Content to be updated.
           </h1>
 
         <p class="tagline">
@@ -195,6 +164,13 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
+         <li><a href="#about">Food</a></li>
+          <li><a href="#features">Lodging</a></li>
+          <li><a href="#portfolio">Places to Visit</a></li>
+           <li><a href="#about">Nightlife</a></li>
+          <li><a href="#features">Transport</a></li>
+          <li><a href="#portfolio">Things to do</a></li>
+            <li><a href="#about">Visa</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -208,14 +184,7 @@
 
   <!-- About -->
 
-
-   
-    <!--/.Card-->
-                    
-
   <section class="about" id="about">
-   <!--Card-->
-
     <div class="container text-center">
 
         <div class="container">

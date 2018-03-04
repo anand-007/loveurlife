@@ -120,7 +120,10 @@
       'selectElementDevices': ['mobile'],
       'selectElementDefaultText': 'Please select',
       onReady: function() {},
-      onStateClick: function() {},
+      onStateClick: function() {
+        var name = $(this)[0].name;
+        window.location.href = "index.php?page="+ name ;
+      },
       onStateOver: function() {},
       onStateOut: function() {}
     }, options);
@@ -700,9 +703,12 @@
         // Event listeners
         mapSelect.on('change', function() {
           if (this.value !== 'default') {
+            alert("---",this.value);
             mapWrapper.trigger('stateClick', this.value);
           }
           else {
+                        alert("---",this.value);
+
             mapWrapper.trigger('stateUnClick');
           }
         });
@@ -861,6 +867,8 @@
     // stateClick event listener
     /////////////////////////////
     mapWrapper.on('stateClick', function(_, name) {
+              alert("mewo ---"+ name);
+
       $.each(statesHitAreas, function(index, elem) {
         pathName = elem.name;
         if (name === pathName) {

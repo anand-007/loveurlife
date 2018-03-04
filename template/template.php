@@ -4,12 +4,25 @@
     <meta charset="utf-8" />
     <title><?php pageTitle(); ?> | <?php siteName(); ?></title>
     <style type="text/css">
-        .wrap {}
+        .wrap {
+          background-color: #78244c;
+
+        }
+        .outerWrap{
+          margin-left: 10%;
+          margin-right: 10%;
+                    background-color:#78244c;
+
+        }
+        body {
+        }
         article { text-align: center; line-height: 150%; }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110579542-2"></script>
     <script>
+      function gary(){
+  };
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -22,27 +35,30 @@
     google_ad_client: "ca-pub-7281204594203363",
     enable_page_level_ads: true
   });
+
 </script>
 </head>
-<body>
-       <div id="title" style= "height:300px; width:100%">
-      <img src = '../content/images/WebsiteTitle.png' style="height:300px;width:60%">
-    </div>
-<div class="wrap">
+<body onload="gary()">
 
-    <header>
-        <h2><?php siteName(); ?></h2>
-        <nav class="menu">
-            <?php navMenu(); ?>
-        </nav>
-    </header>
+<div class="outerWrap">
+  <div id="title" style= "height:300px; width:100%; background-color:78244c; text-align:center;">
+      <img src = '../content/images/WebsiteTitle.png' style="height:300px;margin-top:2%;width:90%;">
+  </div>
+  <div class="wrap">
+       <header>
+          <h2><?php siteName(); ?></h2>
+          <nav class="menu">
+              <?php navMenu(); ?>
+          </nav>
+      </header>
 
 
-    <article>
-        <h3><?php pageTitle(); ?></h3>
-        <?php pageContent(); ?>
-    </article>
+      <article>
+          <h3><?php pageTitle(); ?></h3>
+          <?php pageContent(); ?>
+      </article>
 
+  </div>
 </div>
 </body>
 </html>
