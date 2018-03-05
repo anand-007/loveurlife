@@ -6,7 +6,7 @@
     <style type="text/css">
         .wrap {
           background-color: #78244c;
-
+          overflow: scroll;
         }
         .outerWrap{
           margin-left: 10%;
