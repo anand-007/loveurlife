@@ -164,18 +164,15 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12">
-          <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="../content/img/logo.png"></a>
+          <a class="hero-brand" href="index.html" title="Home"</a>
         </div>
       </div>
 
       <div class="col-md-12">
         <h1>
-            Asia Content to be uploaded
+            Asia 
           </h1>
 
-        <p class="tagline">
-          This is a powerful theme with some great features that you can use in your future projects.
-        </p>
         <a class="btn btn-full" href="#about">Learn More</a>
       </div>
     </div>
@@ -188,7 +185,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img src="../content/img/logo-nav.png" alt="" title="" /></img></a>
+        <a href="index.html">test</a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Bell</a></h1>-->
       </div>
@@ -250,10 +247,6 @@
   <!-- /Features -->
   <!-- Call to Action -->
 
-  <section class="cta">
-    <div class="container">
-    </div>
-  </section>
   <!-- /Call to Action -->
   <!-- Portfolio -->
 
