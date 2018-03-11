@@ -251,9 +251,11 @@
       //Set initial default text
       if (config.stateClickAction === 'text') {
         // Create text div
-        textArea = $('<div class="jsmaps-text"></div>').appendTo(mapWrapper);
-        textArea.html(config.defaultText);
+        textArea = $('<div style="width:100%;margin-left:75%;"><div class="card" style="width:23%;height:400px;background-color:white; float:left;"><div class="view overlay"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt=""><a href="#"><div class="mask rgba-white-slight"></div></a></div><div class="card-body"><h4 class="card-title">Card title</h4><p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p><a href="#" class="btn btn-primary">Learn More</a></div></div>').appendTo(mapWrapper);
+      //  textArea.html(config.defaultText);
         // Handle text left
+
+
         if (config.textPosition === 'left') {
           map.css({
             'left': 'auto',
@@ -615,11 +617,11 @@
               'height': mapHeight + 'px'
             });
             textArea.css({
-              'width': winWidth >= 767 ? config.textAreaWidth + 'px' : mapWidth + 'px',
-              'height': winWidth >= 767 ? mapHeight + 'px' : config.textAreaHeight,
-              'display': 'inline',
-              'float': winWidth >= 767 ? config.textPosition : 'none',
-              'marginTop': winWidth >= 767 ? 0 : mapHeight + 'px'
+              // 'width': winWidth >= 767 ? config.textAreaWidth + 'px' : mapWidth + 'px',
+              // 'height': winWidth >= 767 ? mapHeight + 'px' : config.textAreaHeight,
+              // 'display': 'inline',
+              // 'float': winWidth >= 767 ? config.textPosition : 'none',
+              // 'marginTop': winWidth >= 767 ? 0 : mapHeight + 'px'
             });
           }
         } else {

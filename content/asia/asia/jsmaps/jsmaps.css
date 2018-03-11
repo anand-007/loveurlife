@@ -19,10 +19,7 @@
     left: 0;
     top: 0; }
   .jsmaps-wrapper .jsmaps-text {
-    float: left;
     overflow: auto;
-    padding: 10px 20px;
-    clear: both; }
   .jsmaps-wrapper .jsmaps-tooltip {
     position: fixed;
     display: none;
