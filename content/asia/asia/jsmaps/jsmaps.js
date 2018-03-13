@@ -121,6 +121,7 @@
       'selectElementDefaultText': 'Please select',
       onReady: function() {},
       onStateClick: function() {
+
         var name = $(this)[0].name;
         window.location.href = "index.php?page="+ name ;
       },
@@ -223,10 +224,7 @@
       var mapHeight = config.mapHeight;
       var ratio = mapWidth / mapHeight;
       
-      // Pan/zoom
-      if (config.enablePanZoom) {
-        var mapConsole = $('<div class=jsmaps-console><ul><li class=jsmaps-zoom-in><button type=button><div class="jsmaps-icon jsmaps-icon-plus"></div></button><li class=jsmaps-zoom-out><button type=button><div class="jsmaps-icon jsmaps-icon-minus"></div></button><li class=jsmaps-move-up><button type=button><div class="jsmaps-icon jsmaps-icon-chevron jsmaps-icon-chevron-up"></div></button><li class=jsmaps-move-down><button type=button><div class="jsmaps-icon jsmaps-icon-chevron jsmaps-icon-chevron-down"></div></button><li class=jsmaps-move-left><button type=button><div class="jsmaps-icon jsmaps-icon-chevron jsmaps-icon-chevron-left"></div></button><li class=jsmaps-move-right><button type=button><div class="jsmaps-icon jsmaps-icon-chevron jsmaps-icon-chevron-right"></div></button><li class=jsmaps-zoom-reset><button type=button><div class="jsmaps-icon jsmaps-icon-reset"></div></button></ul></div>').appendTo(mapWrapper);
-      }
+
 
       
       /////////////////////////////
@@ -251,7 +249,7 @@
       //Set initial default text
       if (config.stateClickAction === 'text') {
         // Create text div
-        textArea = $('<div style="width:100%;margin-left:75%;"><div class="card" style="width:23%;height:400px;background-color:white; float:left;"><div class="view overlay"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt=""><a href="#"><div class="mask rgba-white-slight"></div></a></div><div class="card-body"><h4 class="card-title">Card title</h4><p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p><a href="#" class="btn btn-primary">Learn More</a></div></div>').appendTo(mapWrapper);
+        textArea = $('<div style="width:100%;margin-left:75%;"><div class="card" style="width:23%;height:400px;background-color:white; float:left;"><div class="view overlay"><img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt=""><a href="#"><div class="mask rgba-white-slight"></div></a></div><div class="card-body"><h4 class="card-title" id="cardTitle">Card title</h4><p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p><a href="#" class="btn btn-primary">Learn More</a></div></div>').appendTo(mapWrapper);
       //  textArea.html(config.defaultText);
         // Handle text left
 

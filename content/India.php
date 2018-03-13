@@ -133,7 +133,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12">
-          <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="../content/img/logo.png"></a>
+          <a class="hero-brand" href="index.html" title="Home"></a>
         </div>
       </div>
 
@@ -141,10 +141,6 @@
         <h1>
             India Content to be updated.
           </h1>
-
-        <p class="tagline">
-          This is a powerful theme with some great features that you can use in your future projects.
-        </p>
         <a class="btn btn-full" href="#about">Learn More</a>
       </div>
     </div>
@@ -157,7 +153,6 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html"><img src="../content/img/logo-nav.png" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Bell</a></h1>-->
       </div>
@@ -192,15 +187,15 @@
     <!-- Map html - add the below to your page -->
     <div class="jsmaps-wrapper" id="asia-map"></div>
     <!-- End Map html -->
-  </div>
+    <div>
+    Gary is here for content.
+    </div>
+    </div>
 
   <script type="text/javascript">
 
     $(function() {
       
-      $('#asia-map').JSMaps({
-        map: 'asia'
-      });
 
     });
     

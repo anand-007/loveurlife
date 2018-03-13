@@ -118,12 +118,6 @@
   ======================================================= -->
 </head>
 
-<script type="text/javascript">
-  function gar1y(){
-    document.getElementById("title").style.display = "none";
-  }
-</script>
-
 <script>
     $(function() {
         $('.material-card > .mc-btn-action').click(function () {
@@ -155,7 +149,13 @@
         });
     });
 </script>
-<body onload="gar1y()">
+
+<script type="text/javascript">
+  function gary(){
+    document.getElementById("title").style.display = "none";
+  }
+</script>
+<body onload="gary()">
   <!-- Page Content
     ================================================== -->
   <!-- Hero -->
