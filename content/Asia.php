@@ -151,11 +151,11 @@
 </script>
 
 <script type="text/javascript">
-  function gary(){
+  function garygh(){
     document.getElementById("title").style.display = "none";
   }
 </script>
-<body onload="gary()">
+<body onload="garygh()">
   <!-- Page Content
     ================================================== -->
   <!-- Hero -->

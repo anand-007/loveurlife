@@ -37,8 +37,18 @@
   });
 
 </script>
+<script type="text/javascript">
+  function garygh(){
+    var locationValue = window.location.href;
+    if(locationValue && locationValue.indexOf("page=")>-1){
+      document.getElementById("title").style.display = "none";
+    } else {
+      document.getElementById("title").style.display = "block";
+    }
+  }
+</script>
 </head>
-<body onload="gary()">
+<body onload="garygh()">
 
 <div class="outerWrap">
   <div id="title" style= "height:300px; width:100%; background-color:78244c; text-align:center;">
