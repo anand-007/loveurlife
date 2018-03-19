@@ -159,13 +159,13 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-         <li><a href="#about">Food</a></li>
-          <li><a href="#features">Lodging</a></li>
-          <li><a href="#portfolio">Places to Visit</a></li>
-           <li><a href="#about">Nightlife</a></li>
-          <li><a href="#features">Transport</a></li>
-          <li><a href="#portfolio">Things to do</a></li>
-            <li><a href="#about">Visa</a></li>
+         <li><a href="#food">Food</a></li>
+          <li><a href="#lodging">Lodging</a></li>
+          <li><a href="#placestovisit">Places to Visit</a></li>
+           <li><a href="#nightlife">Nightlife</a></li>
+          <li><a href="#transport">Transport</a></li>
+          <li><a href="#thingstodo">Things to do</a></li>
+            <li><a href="#visa">Visa</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -207,29 +207,222 @@
   <!-- /Parallax -->
   <!-- Features -->
 
-  <section class="features" id="features">
+  <section class="food" id="features">
     <div class="container">
+    <div>Food content to be updated here</div>
+    <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
     </div>
   </section>
   <!-- /Features -->
   <!-- Call to Action -->
 
-  <section class="cta">
+  <section class="lodging" id="lodging">
     <div class="container">
+    <div>Lodging content to be updated here</div>
+
+    <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
     </div>
   </section>
   <!-- /Call to Action -->
   <!-- Portfolio -->
 
-  <section class="portfolio" id="portfolio">
+  <section class="placestovisit" id="placestovisit">
     <div class="container text-center">
+    <div>Places to visit here</div>
     </div>
   </section>
   <!-- /Portfolio -->
   <!-- Team -->
 
-  <section class="team" id="team">
+  <section class="nightlife" id="nightlife">
     <div class="container">
+        <div>Night Life to visit here</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    </div>
+  </section>
+
+
+    <section class="transport" id="transport">
+    <div class="container">
+        <div>Transport to be updated here</div>
+        <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    </div>
+  </section>
+
+      <section class="visa" id="visa">
+    <div class="container">
+        <div>Visa to be updated here</div>
+        <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
     </div>
   </section>
   <!-- /Team -->
