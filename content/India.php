@@ -207,53 +207,11 @@
   <!-- /Parallax -->
   <!-- Features -->
 
-  <section class="food" id="features">
+  <section class="food" id="food">
     <div class="container">
     <div>Food content to be updated here</div>
-    <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-    </div>
-  </section>
-  <!-- /Features -->
-  <!-- Call to Action -->
 
-  <section class="lodging" id="lodging">
-    <div class="container">
-    <div>Lodging content to be updated here</div>
-  <div class="card" style="width:23%;height:400px;background-color:white; float:right;">
+     <div class="card" style="width:22%;height:400px;background-color:white; float:right;">
 
         <!--Card image-->
         <div class="view overlay">
@@ -317,6 +275,155 @@
         </div>
 
     </div>    
+
+        <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>   
+    <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    </div>
+  </section>
+  <!-- /Features -->
+  <!-- Call to Action -->
+
+  <section class="lodging" id="lodging">
+    <div class="container">
+    <div>Lodging content to be updated here</div>
+  <div class="card" style="width:22%;height:400px;background-color:white; float:right;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>
+    
+    <div style="background-color:#78244c">    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+        <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>   
     
 
     <br/>
@@ -362,6 +469,129 @@
   <section class="placestovisit" id="placestovisit">
     <div class="container text-center">
     <div>Places to visit here</div>
+      <div class="card" style="width:22%;height:400px;background-color:white; float:right;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>
+    
+    <div style="background-color:#78244c">    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+        <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>   
+    
+
+    <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    </div>
     </div>
   </section>
   <!-- /Portfolio -->
@@ -370,6 +600,91 @@
   <section class="nightlife" id="nightlife">
     <div class="container">
         <div>Night Life to visit here</div>
+          <div class="card" style="width:22%;height:400px;background-color:white; float:right;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>
+    
+    <div style="background-color:#78244c">    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+        <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>
 <br/>
 <br/>
 <br/>
@@ -412,7 +727,221 @@
     <section class="transport" id="transport">
     <div class="container">
         <div>Transport to be updated here</div>
+
+          <div class="card" style="width:22%;height:400px;background-color:white; float:right;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>
+    
+    <div style="background-color:#78244c">    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+        <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>
         <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+    </div>
+  </section>
+
+
+  <section class="thingstodo" id="thingstodo">
+    <div class="container">
+    <div>Things to do content to be updated here</div>
+
+     <div class="card" style="width:22%;height:400px;background-color:white; float:right;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>
+    
+    <div style="background-color:#78244c">    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+    <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>    
+
+        <div class="card" style="width:23%;height:400px;background-color:white; float:left; margin-right:3%;">
+
+        <!--Card image-->
+        <div class="view overlay">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%287%29.jpg" class="img-fluid" alt="">
+            <a href="#">
+                <div class="mask rgba-white-slight"></div>
+            </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title">Card title</h4>
+            <!--Text-->
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+
+    </div>   
+    <br/>
 <br/>
 <br/>
 <br/>
