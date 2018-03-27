@@ -159,6 +159,29 @@
   <!-- Page Content
     ================================================== -->
   <!-- Hero -->
+    <!-- Header -->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text image -->
+        <!--<h1><a href="#hero">Bell</a></h1>-->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+         <li><a href="#food">Home</a></li>
+          <li><a href="#lodging">Latest Destinations</a></li>
+          <li><a href="#placestovisit">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- #nav-menu-container -->
+
+      <nav class="nav social-nav pull-right d-none d-lg-inline">
+        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
+      </nav>
+    </div>
+  </header>
 
   <section class="hero">
     <div class="container text-center">
@@ -181,26 +204,6 @@
   <!-- /Hero -->
 
   <!-- Header -->
-  <header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-        <a href="index.html">test</a>
-        <!-- Uncomment below if you prefer to use a text image -->
-        <!--<h1><a href="#hero">Bell</a></h1>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-        </ul>
-      </nav>
-      <!-- #nav-menu-container -->
-
-      <nav class="nav social-nav pull-right d-none d-lg-inline">
-        <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a> <a href="#"><i class="fa fa-envelope"></i></a>
-      </nav>
-    </div>
-  </header>
   <!-- #header -->
 
   <!-- About -->
