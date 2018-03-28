@@ -121,6 +121,12 @@
 <script type="text/javascript">
   function gary(){
     document.getElementById("title").style.display = "none";
+    document.getElementById("hometest").onclick = function(){
+      alert("--gary bear is here");
+    };
+  }
+  function meow(){
+    document.getElementById("nav-menu-container").style.display="none";
   }
 </script>
 
@@ -139,9 +145,9 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-         <li><a href="#food">Home</a></li>
-          <li><a href="#lodging">Latest Destinations</a></li>
-          <li><a href="#placestovisit">Contact Us</a></li>
+         <li onclick="meow()"><a id="hometest">Home</a></li>
+          <li><a>Latest Destinations</a></li>
+          <li><a>Contact Us</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
