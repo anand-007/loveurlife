@@ -45,6 +45,18 @@
     } else {
       document.getElementById("title").style.display = "block";
     }
+
+     $(window).scroll(function() {
+
+    if ($(this).scrollTop()>0)
+     {
+        $('#header-sticky-wrapper').fadeOut();
+     }
+    else
+     {
+      $('#header-sticky-wrapper').fadeIn();
+     }
+   });
   }
 </script>
 </head>
