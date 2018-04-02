@@ -154,6 +154,9 @@
   function garygh(){
     document.getElementById("title").style.display = "none";
   }
+   function meow(){
+    window.location.href="index.php";
+  }
 </script>
 <body onload="garygh()">
   <!-- Page Content
@@ -170,7 +173,7 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-         <li><a href="#food">Home</a></li>
+         <li><a onclick="meow()">Home</a></li>
           <li><a href="#lodging">Latest Destinations</a></li>
           <li><a href="#placestovisit">Contact Us</a></li>
         </ul>

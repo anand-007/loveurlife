@@ -120,28 +120,13 @@
 
 <script type="text/javascript">
   function gary2(){
-        alert("test");
-
     document.getElementById("title").style.display = "none";
-    $(window).scroll(function() {
-      alert("scrolling---");
-
-    if ($(this).scrollTop()>0)
-     {
-        $('.fade').fadeOut();
-     }
-    else
-     {
-      $('.fade').fadeIn();
-     }
+   
  });
     //alert("test");
    // alert(document.getElementsByClassName("btn btn-full"));
     
-  }
-  function meow(){
-    document.getElementById("header-sticky-wrapper").style.display="none";
-  }
+
 </script>
 
 <body onload="gary2()">
@@ -159,8 +144,8 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu" style="color:white;">
-         <li onclick="meow()"><a id="hometest">Home</a></li>
-          <li><a>Latest Destinations</a></li>
+         <li onclick="meow()"><a id="hometest" onclick="meow()">Home</a></li>
+          <li><a >Latest Destinations</a></li>
           <li><a>Contact Us</a></li>
         </ul>
       </nav>
@@ -181,7 +166,7 @@
       </div>
 
       <div class="col-md-12" id="test3" onClick="#about">
-        <a class="btn btn-full" href="#about" onclick="meow()">Learn More</a>
+        <a class="btn btn-full" href="#about">Learn More</a>
       </div>
     </div>
 

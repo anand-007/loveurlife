@@ -36,8 +36,14 @@
     enable_page_level_ads: true
   });
 
+
+
 </script>
 <script type="text/javascript">
+  function meow(){
+    alert("test");
+    window.location.href="index.php";
+  }
   function garygh(){
     var locationValue = window.location.href;
     if(locationValue && locationValue.indexOf("page=")>-1){

@@ -867,8 +867,6 @@
     // stateClick event listener
     /////////////////////////////
     mapWrapper.on('stateClick', function(_, name) {
-              alert("mewo ---"+ name);
-
       $.each(statesHitAreas, function(index, elem) {
         pathName = elem.name;
         if (name === pathName) {
