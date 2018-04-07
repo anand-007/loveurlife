@@ -173,7 +173,7 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-         <li><a onclick="meow()">Home</a></li>
+         <li><a onclick="meow()" style="color:white;">Home</a></li>
           <li><a href="#lodging">Latest Destinations</a></li>
           <li><a href="#placestovisit">Contact Us</a></li>
         </ul>
